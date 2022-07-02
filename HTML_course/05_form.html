@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Forms:</h1>
+        <form>
+            <div>
+                <label for="text">Text</label>
+                <input type="text" id="text" value="default text" />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email..."
+                />
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" />
+            </div>
+            <div>
+                <label for="number">Number</label>
+                <input type="number" id="number" min="0" />
+            </div>
+            <div>
+                <label for="range">Range</label>
+                <input type="range" id="range" min="0" max="10" step="1" />
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" />
+            </div>
+            <div>
+                <label for="color">Color</label>
+                <input type="color" id="color" />
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" cols="20" rows="3"></textarea>
+            </div>
+            <div>
+                <label for="sex">Your sex</label>
+                <select id="sex">
+                    <option value="male">Male</option>
+                    <option value="female" selected>Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <label>Years worked</label>
+                <input type="radio" name="work" />
+                1
+                <input type="radio" name="work" />
+                2-4
+                <input type="radio" name="work" />
+                5-9
+                <input type="radio" name="work" />
+                10+
+            </div>
+            <div>
+                <label>Favorite Food</label>
+                <input type="checkbox" name="food" />
+                Apples
+                <input type="checkbox" name="food" />
+                Oranges
+                <input type="checkbox" name="food" />
+                Bananas
+            </div>
+            <br />
+            <div>
+                <!-- <input type="submit" value="Send form" /> -->
+                <button type="submit">Send form</button>
+            </div>
+        </form>
+    </body>
+</html>
